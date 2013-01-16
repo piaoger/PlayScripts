@@ -1,7 +1,7 @@
 
 # What's PlayScripts
 
-PlayScripts is the play groud of scripting of Piaoger Gong.
+PlayScripts is the playground for script binding/embedded.
 
 
 # How to use:
