@@ -1,0 +1,13 @@
+#ifndef GUARD_SMCPCORE_JAVASCRIPTENGINE_GLOBAL_GLOBAL_H
+#define GUARD_SMCPCORE_JAVASCRIPTENGINE_GLOBAL_GLOBAL_H
+
+#pragma once
+
+#include "Decl.h"
+
+#include <BedRock/Config.h>
+
+#include "Namespaces.h"
+
+#endif //GUARD_SMCPCORE_JAVASCRIPTENGINE_GLOBAL_GLOBAL_H
+

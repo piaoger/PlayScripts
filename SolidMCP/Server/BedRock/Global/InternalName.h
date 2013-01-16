@@ -1,0 +1,25 @@
+
+#ifndef GUARD_SMCPCORE_BEDROCK_GLOBAL_INTERNALNAME_H
+#define GUARD_SMCPCORE_BEDROCK_GLOBAL_INTERNALNAME_H
+
+#ifdef SMCP_LIB_NAME
+#undef SMCP_LIB_NAME
+#endif
+
+#ifdef SMCP_LIB_FULL_NAME
+#undef SMCP_LIB_FULL_NAME
+#endif
+
+#ifdef SMCP_LIB_DIAGNOSTIC
+#undef SMCP_LIB_DIAGNOSTIC
+#endif
+
+#ifdef SMCP_LIB_DECRIPTION
+#undef SMCP_LIB_DECRIPTION
+#endif
+
+#define SMCP_LIB_NAME			BedRock
+#define SMCP_LIB_DESCRIPTION	"This Library is to support Unit Test started from TestServer.."
+
+
+#endif // GUARD_SMCPCORE_BEDROCK_GLOBAL_INTERNALNAME_H

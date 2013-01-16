@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{3f1bec5e-2679-4bfb-b419-4f6a8a2928a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backyard">
+      <UniqueIdentifier>{fe065df0-13f6-4f4f-985a-f1054ddf4af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backyard\iTry">
+      <UniqueIdentifier>{6ca628a1-6f10-40f3-babd-9f6afbb8e8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{0ce7cf9d-9ee6-410b-bd42-6338de455a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Global">
+      <UniqueIdentifier>{48e10429-2d8a-4ace-87cf-d37f4255cfef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptingInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Backyard\iTry\PycEmbedded.cpp">
+      <Filter>Backyard\iTry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\CmnHdr.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Decl.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Global.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Backyard\iTry\PycEmbedded.h">
+      <Filter>Backyard\iTry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

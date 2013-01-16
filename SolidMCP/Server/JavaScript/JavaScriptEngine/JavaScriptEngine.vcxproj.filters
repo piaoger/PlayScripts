@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{946f6f07-11c4-4712-8feb-a6b8cae2febb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Global">
+      <UniqueIdentifier>{00bc64d2-8270-421b-a1b2-0a72cd26f6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backyard">
+      <UniqueIdentifier>{086fa0d7-8039-4f2d-a16c-77f51e8dd35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backyard\iTry">
+      <UniqueIdentifier>{d1275515-8b5e-433b-a472-70822381b914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backyard\iTry\V8">
+      <UniqueIdentifier>{d59c3ce7-6d57-4cba-bffb-8e7ad33e92a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global\AssemblyInfo.cpp">
+      <Filter>SDK\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\DllMain.cpp">
+      <Filter>SDK\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\Precompiled.cpp">
+      <Filter>SDK\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\TestProxy.cpp">
+      <Filter>SDK\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Backyard\iTry\V8\Try_V8_Embedded_Demo.cpp">
+      <Filter>Backyard\iTry\V8</Filter>
+    </ClCompile>
+    <ClCompile Include="Backyard\iTry\V8\Try_V8.cpp">
+      <Filter>Backyard\iTry\V8</Filter>
+    </ClCompile>
+    <ClCompile Include="Backyard\iTry\V8\Try_V8_SDL.cpp">
+      <Filter>Backyard\iTry\V8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global\CmnHdr.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Decl.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Global.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\InternalName.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Namespaces.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Precompiled.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\TestProxy.h">
+      <Filter>SDK\Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Global\DllExports.def">
+      <Filter>SDK\Global</Filter>
+    </None>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+</Project>

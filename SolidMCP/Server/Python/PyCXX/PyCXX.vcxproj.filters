@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Src">
+      <UniqueIdentifier>{b64e887d-dd56-481b-9749-8dcaf70869fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Src\Python2">
+      <UniqueIdentifier>{b514cd12-9192-4d74-aa69-e9ad200e781e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CXX">
+      <UniqueIdentifier>{2b7b669b-b005-47e4-87a1-f0a779d8f7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CXX\Python2">
+      <UniqueIdentifier>{6a93bb4e-b368-4944-98f6-336eddde253d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\IndirectPythonInterface.cxx">
+      <Filter>Source\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\cxx_extensions.cxx">
+      <Filter>Source\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\cxxextensions.c">
+      <Filter>Source\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\cxxsupport.cxx">
+      <Filter>Source\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Python2\cxx_extensions.cxx">
+      <Filter>Source\Src\Python2</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Python2\cxxextensions.c">
+      <Filter>Source\Src\Python2</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Python2\cxxsupport.cxx">
+      <Filter>Source\Src\Python2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CXX\Config.hxx">
+      <Filter>CXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Exception.hxx">
+      <Filter>CXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Extensions.hxx">
+      <Filter>CXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\IndirectPythonInterface.hxx">
+      <Filter>CXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Objects.hxx">
+      <Filter>CXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Version.hxx">
+      <Filter>CXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\WrapPython.h">
+      <Filter>CXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\Config.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\CxxDebug.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\Exception.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\ExtensionModule.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\ExtensionOldType.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\Extensions.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\ExtensionType.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\ExtensionTypeBase.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\IndirectPythonInterface.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\Objects.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+    <ClInclude Include="CXX\Python2\PythonType.hxx">
+      <Filter>CXX\Python2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

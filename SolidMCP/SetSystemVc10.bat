@@ -1,0 +1,1 @@
+S:\Workspace\Common\SetEnvironmentVC10.bat
