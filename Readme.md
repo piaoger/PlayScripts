@@ -1,16 +1,12 @@
-
 # What's PlayScripts
 
 PlayScripts is the playground for script binding/embedded.
 
 # Involved Script languages
 
-- Python
-  CPython + PyCXX
-- JavaScript
-  Google V8 Engine
-- Scheme
-  TinyScheme
+- Python:CPython + PyCXX
+- JavaScript:Google V8 Engine
+- Scheme:TinyScheme
 
 # How to use:
 - subst this folder as s:
