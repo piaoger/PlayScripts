@@ -3,6 +3,14 @@
 
 PlayScripts is the playground for script binding/embedded.
 
+# Involved Script languages
+
+- Python
+  CPython + PyCXX
+- JavaScript
+  Google V8 Engine
+- Scheme
+  TinyScheme
 
 # How to use:
 - subst this folder as s:
@@ -11,12 +19,12 @@ PlayScripts is the playground for script binding/embedded.
   - Set Environment Variables
   - Automatically Open VS solution  S:\Workspace\Build\Solutions\iScripts.sln
 - Build X64/Debug
-  - Unfortunately, It's Healthy Only configuration now.
+  - Unfortunately, It's "Healthy Only" configuration now.
   - Run TestServer to invoke TUT cases
   - Run PyInterpreter to invoke Python Embedded test cases.
 
   
-# What's in AdSimMemory
+# What's in PlayScripts
 - S:\
 	- ClientApps
 		- Interpreter (Python Interpreter)
@@ -24,6 +32,10 @@ PlayScripts is the playground for script binding/embedded.
 	- Components (3rd components)
 	- Server
 		- BedRock (Base Library)
-		- Python
-		- JavaScript
+		- Python  (Pyton Bindings and Embedded cases)
+		  - PlayCXX   (Try Cases based on PyCXX)
+		  - PyCXX     (PyCXX library)
+		  - Simeple   (Simple module built on raw python api)
+		  - SimpleCXX (Simple module built on PyCXX)
+		- JavaScript (V8 Try Cases)
 	- Workspaces (Scripts and test files)
