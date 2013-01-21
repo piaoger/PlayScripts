@@ -3,7 +3,7 @@
 ========================================================================
 
 BedRock - A C++ Template library
-Copyleft (^_^) 2002-2010 SolidMCP
+Copyfree (^_^) 2002-2010 SolidMCP
 
 Home page:  http://www.cnblogs.com/piaoger
 
