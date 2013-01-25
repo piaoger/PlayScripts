@@ -26,15 +26,23 @@ set SMCP_VER_MINOR=0
 
 :SETCOMPONENTS
 
+set SMCP_COMP_CPP_BOOST=%SMCP_COMPONENTS_CPP%\Boost\boost_1_48_0\Win64
 set SMCP_COMP_CPP_PYTHON=%SMCP_COMPONENTS_CPP%\Python\Python-2.6.7
 set SMCP_COMP_CPP_V8=%SMCP_COMPONENTS_CPP%\V8\V8-3.9\Win64
 
 
 rem Set Debug dll pathes;
  
+
 set PATH=%PATH%;%SMCP_COMP_CPP_V8%
 set PATH=%PATH%;%SMCP_COMP_CPP_PYTHON%\PCbuild\amd64
 
+
+set BOOSTROOT=%SMCP_COMP_CPP_BOOST%
+
+
+:: Extracts 3rd components
+if not exist s:\components\cplusplus   S:\Workspace\Tools\unzip\unzip.exe s:\components\cplusplus.zip  -d s:\components\cplusplus
 
 echo
 
@@ -57,8 +65,9 @@ echo [SolidMCP 3rd Components]
 echo ...
 @echo C++/C Components
 echo
-echo Python          = %SMCP_COMP_CPP_PYTHON%
-echo V8            = %SMCP_COMP_CPP_V8%
+echo Zlib          = %SMCP_COMP_CPP_ZLIB%
+echo QT            = %SMCP_COMP_CPP_QT%
+echo Boost         = %SMCP_COMP_CPP_BOOST%
 echo ...
 
 :STARTDEVIDE

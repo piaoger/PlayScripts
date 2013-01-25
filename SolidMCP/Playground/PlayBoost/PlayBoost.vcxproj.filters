@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{2139cb25-6c6e-461c-ba92-f3476d0225c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ASIO">
+      <UniqueIdentifier>{3ab1d951-3523-4dbe-952d-fc6ff06a33c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ASIO\iTry">
+      <UniqueIdentifier>{1efeec0c-9dac-48f5-9dc6-6b8104def977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSONSpirit">
+      <UniqueIdentifier>{74d4e18d-9822-4bf3-ae27-f1a72863da0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSONSpirit\iTry">
+      <UniqueIdentifier>{6d1f15d2-2f06-4443-b70b-b9ae49918648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Regex">
+      <UniqueIdentifier>{9907d92e-48da-46e4-814d-5f1ee6851197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Regex\iTry">
+      <UniqueIdentifier>{c9420ace-3596-4378-895c-503411b871f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{ba64e0f8-7cce-4339-8ddd-db0fac702f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread\iTry">
+      <UniqueIdentifier>{75b5c1bf-2ae1-4d77-8e5c-59672d17c302}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global\CmnHdr.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Decl.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\Global.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\InternalName.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\TestProxy.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_error_position.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_reader.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_reader_template.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_stream_reader.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_utils.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_value.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_writer.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSpirit\json_spirit_writer_template.h">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Global\DllExports.def">
+      <Filter>Source Files\Global</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global\TestProxy.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIO\iTry\Try_AsyncTimer.cpp">
+      <Filter>Source Files\ASIO\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIO\iTry\Try_Callbacks.cpp">
+      <Filter>Source Files\ASIO\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIO\iTry\Try_MultiTimers.cpp">
+      <Filter>Source Files\ASIO\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIO\iTry\Try_SyncTimer.cpp">
+      <Filter>Source Files\ASIO\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIO\iTry\Try_TCPTimeSync.cpp">
+      <Filter>Source Files\ASIO\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\iTry\Try_Functor.cpp">
+      <Filter>Source Files\Thread\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSpirit\json_spirit_reader.cpp">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSpirit\json_spirit_value.cpp">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSpirit\json_spirit_writer.cpp">
+      <Filter>Source Files\JSONSpirit</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSpirit\iTry\Try_JSONSpirit_object.cpp">
+      <Filter>Source Files\JSONSpirit\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSpirit\iTry\Try_JSONSpirit_wobject.cpp">
+      <Filter>Source Files\JSONSpirit\iTry</Filter>
+    </ClCompile>
+    <ClCompile Include="Regex\iTry\Try_Regex.cpp">
+      <Filter>Source Files\Regex\iTry</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

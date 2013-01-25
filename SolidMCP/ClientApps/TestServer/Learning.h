@@ -2,16 +2,16 @@
 
 #if defined(LEARNING_MODULE_TESTER)
 
-//#include <Booster/Global/Global.h>
-//#include <Booster/Global/TestProxy.h>
-//
-//#pragma comment(lib, "Booster.lib")
+#include <PlayBoost/Global/Global.h>
+#include <PlayBoost/Global/TestProxy.h>
+
+#pragma comment(lib, "PlayBoost.lib")
 
 struct LearningModuleTester
 {
     static void Run()
     {
-       // SolidMCP::Booster::TestProxy::Run();
+        SolidMCP::PlayBoost::TestProxy::Run();
     }
 };
 
