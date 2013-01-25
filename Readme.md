@@ -9,7 +9,7 @@ PlayScripts is the playground for script binding/embedded.
 - Scheme:TinyScheme
 
 # How to use:
-- subst this folder as s:
+- subst child folder "SolidMCP" as s:
 - Run S:\SetSystemVc10.bat
   - It calls S:\Workspace\Common\SetEnvironmentVC10.bat
   - Set Environment Variables

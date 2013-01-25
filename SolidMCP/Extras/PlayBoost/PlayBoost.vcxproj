@@ -118,7 +118,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SMCP_COMP_CPP_BOOST);$(SMCP_ROOT)\Server;$(SMCP_ROOT)/Server/BedRock/AutoTest/TUT;$(SMCP_ROOT)\AppEngine;$(SMCP_ROOT)\Playground;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SMCP_COMP_CPP_BOOST);$(SMCP_ROOT)\Server;$(SMCP_ROOT)/Server/BedRock/AutoTest/TUT;$(SMCP_ROOT)\AppEngine;$(SMCP_ROOT)\Extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;NT;_WINDOWS;_USRDLL;SMCP_DLL;SMCPCORE_PLAYBOOST_DECL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>

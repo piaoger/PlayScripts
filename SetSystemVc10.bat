@@ -5,4 +5,4 @@
 @ subst %SMCP_ROOT% /d
 @ subst %SMCP_ROOT% %SMCP_DIRECTORY%
 
-call %SMCP_DIRECTORY%\workspace\Common\SetEnvironmentVC10.bat
+call s:\SetSystemVc10.bat

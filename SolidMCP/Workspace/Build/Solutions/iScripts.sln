@@ -33,9 +33,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayCXX", "..\..\..\Server\
 		{199884FA-BF1B-4466-AD07-0C6F5A568763} = {199884FA-BF1B-4466-AD07-0C6F5A568763}
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlayGround", "PlayGround", "{16BA87B9-AE20-4F9D-A814-F9EF26E58EEA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extras", "Extras", "{16BA87B9-AE20-4F9D-A814-F9EF26E58EEA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayBoost", "..\..\..\Playground\PlayBoost\PlayBoost.vcxproj", "{610FB69E-2923-430F-A5ED-C3C1B0E95F1C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayBoost", "..\..\..\Extras\PlayBoost\PlayBoost.vcxproj", "{610FB69E-2923-430F-A5ED-C3C1B0E95F1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
